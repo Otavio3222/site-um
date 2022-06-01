@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Esse é o meu primeiro site">
+    <meta name="kaywords" content="Curso de progamação">
+    <meta name="author" content="Otavio">
+    <style>
+         * {
+            padding: 0%;
+            margin: 0%;
+         }
+
+         header {
+             display: flex;
+             align-items: center;
+             justify-content: center; 
+             padding: 28px;  
+             background-color:cornflowerblue ;
+             color: white;
+             font-family: Cambria, Arial;
+         }
+
+         section {
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             height: 80vh;
+         }
+
+         form {
+            font-family: Arial; 
+         }
+
+         form div {
+             display: flex;
+             flex-direction: column;
+             margin-bottom: 30px;
+         }
+
+         form input, form textarea {
+             outline:unset ;
+             padding: 10px;
+             width: 300px;
+             border: 1px solid cornflowerblue;
+             border-radius:20px ;
+         }
+
+         .menu{
+            background-color: black;
+            overflow: hidden;
+            padding: 15px;
+        }
+        
+        .menu a{
+                color: whitesmoke;
+                padding: 14px 16px;
+                float: left;
+                display: block;
+                text-decoration: none;
+            }
+
+
+    </style>
+</head>
+<body>
+
+<div class="menu">
+    <br>
+<a href="site.html">Voltar a principal</a> 
+<a href="ktm.html">Moto Ktm</a>  
+<a href="kawasaki.html">Moto Kawasaki</a>  
+<a href="honda.html">Moto Honda</a> 
+<a href="suzuki.html">Moto Suzuki</a>  
+<a href="yamaha.html">Moto Yamaha</a>  
+<a href="gasgas.html">Moto Gas Gas</a>  
+
+
+</div>
+
+    <header>
+        <h1>Formulário de Contato </h1>
+    </header>
+    <section>
+        <form>
+            <div>
+                <label>Nome</label>
+                <input type="text" placeholder="Digite seu Nome" name="name" required/>
+            </div>
+<br>
+            <div>
+                <label>Telefone</label>
+                <br>
+                <input type="text" placeholder="Digite seu Telefone" name=telefone required/>
+            </div>
+            <div>
+                <label>Mensagen</label>
+                <br>
+                <textarea rows="15" name="nsg" required></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Enviar"/>
+            </div>
+        </form>
+    </section>
+
+
+
+
+
+</body>
+</html>
